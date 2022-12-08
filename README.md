@@ -1,6 +1,12 @@
 # InstrumentationUtil
 ## 使用
 
+#### 说明：
+
+在部分设备运行会Injecting to another application requires INJECT_EVENTS permission 权限问题
+
+最好的办法就是将apk在对应设备系统进行系统签名或者rom层能够开放此类相关权限。
+
 #### 添加依赖：
 
 **Step 1.** 在settings.gradle中添加

@@ -16,6 +16,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "InstrumentationDemo"
 include ':app'
-include ':myapplication'
 include ':InstrumentationUtils'
-include ':mylibrary'
